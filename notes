@@ -1,0 +1,11 @@
+CONSTRUCTOR example
+
+function User (name, email){
+  this.name = name;
+  this.email = email;
+  this.sayHello = function(){
+    console.log("Hello everybody!");
+  }
+}
+let susan = new User('susan', 'susan@gmail.com')
+susan.sayHello()  // "Hello everybody!"
